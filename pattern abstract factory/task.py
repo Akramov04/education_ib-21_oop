@@ -35,7 +35,6 @@ class HybridCarFactory(CarFactory):
         return HybridCar()
 
 if __name__ == "__main__":
-    # Создаем фабрики
     electric_factory = ElectricCarFactory()
     petrol_factory = PetrolCarFactory()
     hybrid_factory = HybridCarFactory()
