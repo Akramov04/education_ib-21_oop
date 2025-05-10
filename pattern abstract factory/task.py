@@ -43,6 +43,6 @@ if __name__ == "__main__":
     petrol_car = petrol_factory.produce_car()
     hybrid_car = hybrid_factory.produce_car()
 
-    print(electric_car.drive())  # Output: Driving an electric car.
-    print(petrol_car.drive())    # Output: Driving a petrol car.
-    print(hybrid_car.drive())    # Output: Driving a hybrid car.
+    print(electric_car.drive())
+    print(petrol_car.drive())
+    print(hybrid_car.drive())
