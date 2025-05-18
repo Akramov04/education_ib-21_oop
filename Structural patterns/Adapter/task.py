@@ -31,7 +31,6 @@ class DatabaseAdapter(DataSource):
         return self.database_data_source.fetch_data()
 
 if __name__ == "__main__":
-    # Использование FileDataSource
     file_source = FileDataSource("data.txt")
     print(file_source.read_data())
 
